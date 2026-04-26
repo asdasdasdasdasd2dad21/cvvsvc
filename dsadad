@@ -1280,14 +1280,14 @@
 			-- dock init
 				dock_outline = library:create("Frame", {
 					Parent = sgui,
-					Name = "",
-					Visible = true,
-					BorderColor3 = rgb(0, 0, 0),
-					AnchorPoint = vec2(0.5, 0),
-					Position = dim2(0.5, 0, 0, 20),
-					Size = dim2(0, 50, 0, 5),
-					BorderSizePixel = 0,
-					BackgroundColor3 = themes.preset.outline
+    				Name = "",
+    				Visible = true,
+   					BorderColor3 = rgb(0, 0, 0),
+    				AnchorPoint = vec2(0.5, 0),
+    				Position = dim2(0.5, 0, 0, 20),
+    				Size = dim2(0, 90, 0, 5),  -- Changed from 145 to 90
+   					BorderSizePixel = 0,
+    				BackgroundColor3 = themes.preset.outline
 				}); 
 
 				library:apply_theme(dock_outline, "outline", "BackgroundColor3"); 
